@@ -21,15 +21,17 @@ Questions
 
 #### 1. Which of the above requirements work, and which do not? For each requirement, write a brief response.
 
-1. TODO
-2. TODO
-3. TODO
-4. TODO
+1. All of them are 0(1)
+2. I believe it is decently fast.
+3. I had trouble with this method, but I believe it is working well right now.
+4. Deletion method works well.
 
 #### 2. I decided to use two function (`keyExists` and `find`) to enable lookup of keys. Another option would have been to have `find` return a `T*`, which would be `NULL` if an item with matching key is not found. Which design do you think would be better? Explain your reasoning. You may notice that the designers of C++ made the same decision I did when they designed http://www.cplusplus.com/reference/unordered_map/unordered_map/
 
-TODO
+		I believe that the design that was chosen is faster. According to the reading it would be faster this way because find
+		has to cycle through everything in the parameters. Also, it's always useful to make helper methods in my opinion.
 
 #### 3. What is one question that confused you about this exercise, or one piece of advice you would share with students next semester?
 
-TODO
+		My advice is to make sure you completely understand the reading before starting this assignment. It was a
+		very complicated assignment.
